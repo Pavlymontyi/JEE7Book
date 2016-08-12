@@ -23,10 +23,12 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="Chapter2" />
+        <module name="Chapter3" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Chapter2" target="1.7" />
+      <module name="Chapter3" target="1.7" />
       <module name="JEE7Book-parent" target="1.5" />
     </bytecodeTargetLevel>
   </component>
