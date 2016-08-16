@@ -3,6 +3,7 @@ package entities;
 import com.kraynov.javaee7.contraints.ChronologicalDates;
 
 import java.util.Date;
+import java.util.List;
 
 @ChronologicalDates
 public class Order {
@@ -11,7 +12,7 @@ public class Order {
     private Date creationDate;
     private Date paymentDate;
     private Date deliveryDate;
-    private List<OrderLine> orderLines;
+    private List orderLines;
 
     public Date getCreationDate() {
         return creationDate;
