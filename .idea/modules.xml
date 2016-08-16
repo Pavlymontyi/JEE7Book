@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JEE7Book-parent/Chapter2/Chapter2.iml" filepath="$PROJECT_DIR$/JEE7Book-parent/Chapter2/Chapter2.iml" />
       <module fileurl="file://$PROJECT_DIR$/JEE7Book-parent/Chapter3/Chapter3.iml" filepath="$PROJECT_DIR$/JEE7Book-parent/Chapter3/Chapter3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JEE7Book-parent/Chapter4/Chapter4.iml" filepath="$PROJECT_DIR$/JEE7Book-parent/Chapter4/Chapter4.iml" />
       <module fileurl="file://$PROJECT_DIR$/JEE7Book-parent/JEE7Book-parent.iml" filepath="$PROJECT_DIR$/JEE7Book-parent/JEE7Book-parent.iml" />
     </modules>
   </component>
