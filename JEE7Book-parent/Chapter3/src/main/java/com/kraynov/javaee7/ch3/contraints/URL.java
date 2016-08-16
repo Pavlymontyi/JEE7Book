@@ -1,6 +1,6 @@
-package com.kraynov.javaee7.contraints;
+package com.kraynov.javaee7.ch3.contraints;
 
-import com.kraynov.javaee7.contraints.impl.URLValidator;
+import com.kraynov.javaee7.ch3.contraints.impl.URLValidator;
 
 import javax.validation.Constraint;
 import javax.validation.Payload;

@@ -1,6 +1,6 @@
-package entities;
+package com.kraynov.javaee7.ch3.entities;
 
-import com.kraynov.javaee7.contraints.Email;
+import com.kraynov.javaee7.ch3.contraints.Email;
 
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;

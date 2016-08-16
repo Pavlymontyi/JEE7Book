@@ -1,6 +1,6 @@
-package com.kraynov.javaee7.contraints;
+package com.kraynov.javaee7.ch3.contraints;
 
-import com.kraynov.javaee7.contraints.impl.ChronologicalDatesValidator;
+import com.kraynov.javaee7.ch3.contraints.impl.ChronologicalDatesValidator;
 
 import javax.validation.Constraint;
 import java.lang.annotation.ElementType;

@@ -1,4 +1,4 @@
-package entities;
+package com.kraynov.javaee7.ch3.entities;
 
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;

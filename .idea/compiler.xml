@@ -30,7 +30,7 @@
     <bytecodeTargetLevel>
       <module name="Chapter2" target="1.7" />
       <module name="Chapter3" target="1.7" />
-      <module name="Chapter4" target="1.5" />
+      <module name="Chapter4" target="1.7" />
       <module name="JEE7Book-parent" target="1.5" />
     </bytecodeTargetLevel>
   </component>

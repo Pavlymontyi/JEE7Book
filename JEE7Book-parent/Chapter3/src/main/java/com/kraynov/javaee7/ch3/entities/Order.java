@@ -1,6 +1,6 @@
-package entities;
+package com.kraynov.javaee7.ch3.entities;
 
-import com.kraynov.javaee7.contraints.ChronologicalDates;
+import com.kraynov.javaee7.ch3.contraints.ChronologicalDates;
 
 import java.util.Date;
 import java.util.List;

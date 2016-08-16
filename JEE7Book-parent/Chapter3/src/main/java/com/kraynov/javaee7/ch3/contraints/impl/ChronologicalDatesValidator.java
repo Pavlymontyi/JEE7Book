@@ -1,7 +1,7 @@
-package com.kraynov.javaee7.contraints.impl;
+package com.kraynov.javaee7.ch3.contraints.impl;
 
-import com.kraynov.javaee7.contraints.ChronologicalDates;
-import entities.Order;
+import com.kraynov.javaee7.ch3.contraints.ChronologicalDates;
+import com.kraynov.javaee7.ch3.entities.Order;
 
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;

@@ -1,8 +1,7 @@
-package inherit;
+package com.kraynov.javaee7.ch3.inherit;
 
 import javax.validation.constraints.DecimalMin;
 import javax.validation.constraints.Max;
-import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
 
 public class CD extends Item {

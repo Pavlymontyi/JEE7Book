@@ -1,6 +1,6 @@
-package entities;
+package com.kraynov.javaee7.ch3.entities;
 
-import com.kraynov.javaee7.contraints.URL;
+import com.kraynov.javaee7.ch3.contraints.URL;
 
 import javax.validation.constraints.NotNull;
 import java.util.Date;

@@ -1,4 +1,4 @@
-package com.kraynov.javaee7.contraints;
+package com.kraynov.javaee7.ch3.contraints;
 
 import javax.validation.Constraint;
 import javax.validation.Payload;

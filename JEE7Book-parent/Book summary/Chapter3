@@ -12,7 +12,7 @@ Java, хотя и предпринимаются попытки интегрир
 их для валидации компонентов, атрибутов, конструкторов, возвращаемых типов
 
 Пример ограничения:
-public class entities.Book {
+public class Book {
     @NotNull @Min(2)
     private Float price;
 }
@@ -119,7 +119,7 @@ public class URLValidator implements ConstraintValidator<URL, String> {
 }
 
 3) Использование:
-public class entities.ItemServerConnection {
+public class ItemServerConnection {
     @URL
     private String resourceURL;
 
@@ -132,7 +132,7 @@ public class entities.ItemServerConnection {
 Множественные ограничения используют оператор AND. Это означает, что для валидности атрибута
 orderId необходимо, чтобы он удовлетворял двум регулярным выражениям.
 
-public class entities.Order {
+public class Order {
     @Pattern.List({
         @Pattern(regexp = "[C,D,M][A-Z][0-9]*"),
         @Pattern(regexp = ".[A-Z].*?")

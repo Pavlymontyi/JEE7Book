@@ -1,2 +1,10 @@
 
 Java Persistence API (JPA) является предпочтительной технологией и частью Java EE 7
+
+Общая инфа про JPA, бла-бла-бла, ничего интересного.
+
+Единица сохраняемости (persistence-unit)
+EntityManagerFactory emf = Persistence.createEntityManagerFactory("chapter04PU");
+EntityManagerFactory передает имя единицы сохраняемости в качестве параметра; в данном случае
+она имеет имя chapter04PU. Единица сохраняемости позволяет EntityManager узнать
+тип базы данных для использования и параметры подключения, определенные в файле persistence.xml

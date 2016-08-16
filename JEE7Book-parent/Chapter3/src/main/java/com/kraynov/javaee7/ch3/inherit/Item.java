@@ -1,4 +1,4 @@
-package inherit;
+package com.kraynov.javaee7.ch3.inherit;
 
 import javax.validation.constraints.DecimalMin;
 import javax.validation.constraints.NotNull;
