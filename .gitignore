@@ -2,12 +2,12 @@
 Thumbs.db
 ehthumbs.db
 
+
 # Folder config file
 Desktop.ini
 
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
-.idea/libraries/
 
 # Windows Installer files
 *.cab
@@ -46,3 +46,7 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+JEE7Book-parent/.idea/libraries/
+JEE7Book-parent/.idea/workspace.xml
+.idea/workspace.xml
