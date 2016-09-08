@@ -34,7 +34,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <mainClass>bookservice.com.kraynov.javaee7.ch04.Main</mainClass>
+                    <mainClass>com.kraynov.javaee7.ch02.Main</mainClass>
                 </configuration>
             </plugin>
             <plugin>

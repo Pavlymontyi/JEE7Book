@@ -1,5 +1,5 @@
-import bookservice.Book;
-import bookservice.BookService;
+import com.kraynov.javaee7.ch02.Book;
+import com.kraynov.javaee7.ch02.BookService;
 import org.jboss.weld.environment.se.Weld;
 import org.jboss.weld.environment.se.WeldContainer;
 import org.junit.Assert;

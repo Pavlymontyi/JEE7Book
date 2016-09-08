@@ -50,3 +50,5 @@ Temporary Items
 JEE7Book-parent/.idea/libraries/
 .idea/workspace.xml
 JEE7Book-parent/.idea/workspace.xml
+*.class
+JEE7Book-parent/**/target/

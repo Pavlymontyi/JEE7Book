@@ -4,15 +4,15 @@
 http://xmlns.jcp.org/xml/ns/javaee/beans_1_1.xsd"
        version="1.1" bean-discovery-mode="all">
     <interceptors>
-        <class>bookservice.logging.LoggingInterceptor</class>
+        <class>com.kraynov.javaee7.ch02.logging.LoggingInterceptor</class>
     </interceptors>
 
     <decorators>
-        <class>bookservice.decor.FromEightToThirteenDigitsDecorator</class>
+        <class>com.kraynov.javaee7.ch02.decor.FromEightToThirteenDigitsDecorator</class>
     </decorators>
 
     <alternatives>
-        <class>bookservice.numbergen.MockGenerator</class>
+        <class>com.kraynov.javaee7.ch02.numbergen.MockGenerator</class>
     </alternatives>
 
 </beans>
