@@ -78,7 +78,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <mainClass>org.agoncal.book.javaee7.chapter04.Main</mainClass>
+                    <mainClass>com.kraynov.javaee7.ch04.Main</mainClass>
                 </configuration>
             </plugin>
         </plugins>

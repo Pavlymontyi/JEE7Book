@@ -11,6 +11,15 @@
 
     <artifactId>Chapter2</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.11</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
     <build>
         <plugins>
             <plugin>
@@ -40,8 +49,10 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-failsafe-plugin</artifactId>
-                <version>2.12.4</version>
+                <version>2.19</version>
                 <executions>
+                    <execution>
+                    </execution>
                     <execution>
                         <id>integration-test</id>
                         <goals>

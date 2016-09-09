@@ -9,6 +9,7 @@ public class BookServiceIT {
 
     @Test
     public void shouldCheckNumberIsMOCK () {
+        System.out.println("BookServiceIT start");
         Weld weld = new Weld();
         WeldContainer container = weld.initialize();
         BookService bookService =
