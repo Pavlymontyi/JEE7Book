@@ -21,6 +21,7 @@ public class Book {
     private Integer nbOfPage;
     private Boolean illustrations;
 
+    public Book(){super();}
 
     public Book(String title, String description, float price, String isbn, int nbOfPage, boolean illustrations) {
         this.title = title;
